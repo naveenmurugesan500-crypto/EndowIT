@@ -52,19 +52,9 @@ export default function Footer({ onOpenEnrollModal }) {
           
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center p-0.5">
-                <div className="w-full h-full bg-[#0F1D3E] rounded-[10px] flex items-center justify-center font-black text-cyan-400 text-lg">
-                  E
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-extrabold tracking-tight text-white">
-                  Endow<span className="text-cyan-400">IT</span> Academy
-                </span>
-                <span className="text-[10px] font-bold text-cyan-400 tracking-widest uppercase -mt-1">
-                  INDUSTRY-LED TECH EXCELLENCE
-                </span>
+            <Link to="/" className="inline-block">
+              <div className="bg-white px-3.5 py-1.5 rounded-xl shadow-md inline-flex items-center justify-center">
+                <img src="./logo.png" alt="EndowIT Academy" className="h-9 w-auto object-contain" />
               </div>
             </Link>
             

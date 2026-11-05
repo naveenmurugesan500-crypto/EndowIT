@@ -31,18 +31,8 @@ export default function Navbar({ onOpenEnrollModal }) {
           
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center p-0.5 shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-500/40 transition">
-              <div className="w-full h-full bg-[#0F1D3E] rounded-[10px] flex items-center justify-center">
-                <Brain className="w-5 h-5 text-cyan-400" />
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-extrabold tracking-tight text-white flex items-center">
-                Endow<span className="text-cyan-400">IT</span>
-              </span>
-              <span className="text-[10px] font-bold text-cyan-300 tracking-widest uppercase -mt-1">
-                ACADEMY
-              </span>
+            <div className="bg-white px-3.5 py-1.5 rounded-xl shadow-lg shadow-cyan-500/10 flex items-center justify-center hover:scale-[1.02] transition">
+              <img src="./logo.png" alt="EndowIT Academy" className="h-8 sm:h-9 w-auto object-contain" />
             </div>
           </Link>
 
